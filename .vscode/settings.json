@@ -1,0 +1,8 @@
+{
+  "python.venvPath": ".venv",
+  "python.pythonPath": "/Users/hiroyuki/.pyenv/shims/python3",
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.enabled": true
+}
