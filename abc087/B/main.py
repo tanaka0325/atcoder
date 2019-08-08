@@ -1,7 +1,3 @@
-import time
-
-start = time.time()
-
 a = int(input())
 b = int(input())
 c = int(input())
@@ -32,7 +28,3 @@ for i in range(max500 + 1):
                 continue
 
 print(cnt)
-
-elapsed_time = time.time() - start
-print("elapsed_time:{0}".format(elapsed_time) + "[sec]")
-
