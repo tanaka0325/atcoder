@@ -1,13 +1,8 @@
-L = [int(input())]
-i = 2
-while True:
-    n = L[-1]
-    v = int(n / 2) if n % 2 == 0 else (3 * n) + 1
+s = int(input())
+L = []
 
-    if v in L:
-        print(i)
-        break
-    else:
-        L.append(v)
+while s not in L:
+    L.append(s)
+    s = int(s / 2) if s % 2 == 0 else (3 * s) + 1
 
-    i += 1
+print(len(L) + 1)
